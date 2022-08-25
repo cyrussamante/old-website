@@ -1,0 +1,69 @@
+p {
+    font-family: Roboto, Arial;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+button {
+    font-family: Roboto, Arial;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+body {
+    margin: 0;
+    overflow-x: hidden; 
+}
+
+a {
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden; 
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+}
+
+textarea {
+    font-family: Roboto, Arial;
+}
+
+.landing-page {
+    background-color: #131313;
+    height: 100%;
+}
+
+.website-name-centre {
+    font-weight: 700;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    margin-top: 300px;
+}
+
+.coming-soon-title {
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 20px;
+    letter-spacing: 20px;
+    color: white;
+    text-align: center;
+}
+
+.coming-soon {
+    background-color: #131313;
+}
+
+.cs-subtext {
+    font-weight: 300;
+    font-size: 17px;
+    color: white;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-top: 20px;
+}

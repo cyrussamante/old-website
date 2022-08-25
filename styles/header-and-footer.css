@@ -1,0 +1,70 @@
+.header {
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #131313;
+}
+
+.left-section {
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.website-name {
+    font-weight: 700;
+    font-size: 32px;
+    color: white;
+    margin-left: 20px;
+    cursor: pointer;
+
+}
+
+.right-section {
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 50px;
+    
+}
+
+.work-section,.about-section, .contact-section {
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.work-section:hover,.about-section:hover, .contact-section:hover {
+    font-weight: 500;
+}
+
+.footer {
+    height: 110px;
+    background-color: #131313;
+}
+
+.footer-logo {
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+    padding-top: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.footer-text {
+    font-size: 13px;
+    padding-top: 5px;
+    text-align: center;
+    color: lightgrey;
+}
+
+.footer-link {
+    font-weight: 700;
+    font-size: 12px;
+    padding-top: 4px;
+    text-align: center;
+    color: lightgrey;
+}

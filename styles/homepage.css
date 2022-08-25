@@ -1,0 +1,243 @@
+.hero {
+    height: 717px;
+    background-color: #1C1C1C;
+    padding-left: 100px;
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+}
+
+.left-hero {
+    padding-top: 180px;
+    padding-left: 70px;
+}
+
+.hero-text {
+    margin-bottom: 0;
+    margin-top: 0;
+    line-height: 75px;
+    font-weight: 700;
+    font-size: 75px;
+    color: white;
+}
+
+.hero-name {
+    color: #19ACFF;
+}
+
+.hero-subtext {
+    margin-top: 20px;
+    color: white;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.hero-button {
+    margin-top: 20px;
+    height: 50px;
+    width: 300px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #19ACFF;
+    background-color: #1C1C1C;
+    border-color: #19ACFF;
+    border-style: solid;
+    border-width: 6px; 
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hero-button:hover {
+    color: #1C1C1C;
+    background-color: #19ACFF;
+}
+
+.right-hero {
+    display: grid; 
+    grid-template-columns: 1fr;
+}
+
+.hero-image {
+    padding-left: 100px;
+    margin-top: 66px;
+    height: 650px;
+    filter: drop-shadow(5px -2px 10px rgb(0, 0, 0));
+    
+}
+
+.about-me {
+    height: 817px;
+    background-color: #202020;
+    padding-left: 100px;
+    display: grid; 
+    grid-template-columns: 640px 1fr;
+}
+
+.left-about {
+    padding-top: 140px;
+    padding-left: 70px;
+    padding-right: 0px;
+}
+
+.about-image {
+    height: 600px;
+    filter: drop-shadow(5px -2px 10px rgb(0, 0, 0));
+    filter: grayscale(100%);
+}
+
+.about-title {
+    line-height: 75px;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+}
+
+.right-about {
+    padding-top: 250px;
+    padding-right: 100px;
+}
+
+.about-text {
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(239, 239, 239);
+}
+
+.about-subheader {
+    height: 100px;
+    width: 400px;
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.languages,.programs,.certifications {
+    color: white;
+    font-weight: 500;
+    text-underline-offset: 5px;
+    text-decoration: underline;
+    text-decoration-color: #19ACFF;
+    cursor: pointer;
+}
+
+.languages:hover,.programs:hover,.certifications:hover {
+    font-weight: 700;
+}
+
+.contact {
+    height: 617px;
+    background-color: #272727;
+    padding-left: 100px;
+    display: grid; 
+    grid-template-columns: 640px 1fr;
+}
+
+.contact-title {
+    line-height: 75px;
+    font-weight: 700;
+    font-size: 40px;
+    color: white;
+}
+
+.left-contact {
+    padding-top: 140px;
+    padding-left: 162px;
+    padding-right: 0px;
+}
+
+.contact-text {
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(239, 239, 239);
+
+}
+
+.right-contact {
+    padding-top: 30px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 200px;
+}
+
+.contact-box {
+    width: 500px;
+    top: 50%;
+    left: 50%;
+}
+
+
+form {
+    margin: 25px;
+}
+
+.input-name {
+    width: 200px;
+    height: 25px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    border: 1px solid;
+    border-color: white;
+    outline: none;
+}
+
+.input-email {
+    width: 425px;
+    height: 25px;
+    margin-right: 15px;
+    margin-bottom: 2px;
+    border: 1px solid;
+    border-color: white;
+}
+
+.input-message {
+    width: 425px;
+    height: 200px;
+    margin-right: 15px;
+    border: 1px solid;
+    border-color: white;
+    resize: none;
+}
+
+.input-message::placeholder {
+    color: black;  
+  }
+
+.form-title {
+    font-weight: 500;
+    margin-bottom: 10px;
+    margin-top: 25px;
+    font-size: 15px;
+    color: white;
+}
+
+.form-subtitle {
+    display: inline;
+    font-weight: 500;
+    padding-bottom: 10px;
+    margin-right: 162px;
+    font-size: 12px;
+    color: white;
+}
+
+.submit-button {
+    margin-top: 0px;
+    margin-left: 22px;
+    height: 50px;
+    width: 100px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #19ACFF;
+    background-color: #272727;
+    border-color: #19ACFF;
+    border-style: solid;
+    border-width: 6px; 
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    color: #272727;
+    background-color: #19ACFF;
+}
