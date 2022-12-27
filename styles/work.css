@@ -3,12 +3,13 @@
 }
 
 .hero {
-    height: 800px;
+    height: 500px;
     background-color: #202020;
 }
 
 .centre-hero {
-    padding-top: 180px;
+    padding-top: 140px;
+    
 }
 
 .hero-text {
@@ -46,6 +47,7 @@
     border-width: 6px; 
     border-radius: 5px;
     cursor: pointer;
+    
 }
 
 .hero-button:hover {
@@ -104,6 +106,7 @@
 
 .right-projects {
     display: flex;
+    margin-bottom: 20px;
 }
 
 .project-images {
@@ -142,4 +145,9 @@
     font-weight: 700;
     text-align: center;
     font-size: 40px;
+}
+
+.button-div {
+      display: flex;
+      justify-content: center;
 }
